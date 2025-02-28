@@ -1,0 +1,20 @@
+#TextMain1 {
+    flex: auto;
+    position: relative;
+    bottom: 550px;
+    text-align: justify;
+    text-align: center;
+}
+
+@media (max-width: 1115px) {
+    #TextMain1>h1 {
+        position: relative;
+        top: 35px;
+    }
+}
+
+@media (max-width: 360px) {
+    #TextMain1>.bannerd {
+        font-size: 35px;
+    }    
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de clientes</title>
+    <link rel="stylesheet" href="../css/REGISTRO.css">
+  </head>
+  <body>
+    <section class="registro">
+        <form>
+          <div class="campos">
+          <h1>Registro de Clientes</h1>
+          <h2>Por favor complete los siguientes campos.</h2>
+          <label for="nombre">Nombres:</label>
+          <input class="Controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+          <label for="apellido">Apellidos:</label>
+          <input class="Controls" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+          <label for="identificacion">Identificacion:</label>
+          <input class="Controls" type="number" name="identificacion" id="identificacion" min="0" placeholder="Ingrese su numero de identificacion (CC,TI,PEP)" required>
+          <label for="telefono">Telefono:</label>
+          <input class="Controls" type="tel" name="telefono" id="telefono" placeholder="Ingrese su numero de telefono">
+          <label for="correo">Correo Electronico:</label>
+          <input class="Controls" type="email" name="correo" id="correo" placeholder="usuario@gmail.com" required>
+          <label for="contraseña">Contreseña: </label>
+          <input class="Controls" type="password" name="contreseña" id="contraseña" placeholder="Ingresa tu contraseña" required>
+          <label for="confirmacion_contraseña">Confirmar contraseña: </label>
+          <input class="Controls" type="password" name="confirmacion_contraseña" id="confirmacion_contraseña" placeholder="Confirma tu contraseña" required>
+          <div class="botones">
+          <button class="btnSalir"><a href="../Index.html">Registrate</a></button>
+          </div>
+          <div class="ya_tienes_cuenta"><p>¿Ya tienes Cuenta?</p></div>
+          <div class="link_Login"><p><a href="#">Login</a></p></div>
+        </div>
+        </form>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#QuienesSomos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    width: 100%;
+    gap: 5%;
+}
+
+.InfoQsomos {
+    width: 80%;
+    margin-bottom: 1%;
+}
+
+#SepraraMV {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 10%;
+}
+
+#InfoMision,
+#InfoVision {
+    flex: 1;
+}
+
+.InfoQsomos>ol>li {
+    color: aliceblue;
+}

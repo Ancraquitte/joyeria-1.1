@@ -1,0 +1,320 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #010100;
+}
+
+/* menu */
+#MenuMain {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #010100;
+    width: 100%;
+    height: 8.2vw;
+    z-index: 999;
+}
+
+.MenuLink {
+    flex: auto;
+    text-align: center;
+}
+
+p {
+    color: #ffffff;
+}
+
+.DivisionFake {
+    width: 100%;
+    height: 8.2vw;
+}
+
+/* Carrucel */
+
+#CarrucelMain {
+    width: 100%;
+    height: 620px;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+
+#CarrucelMain>ul {
+    display: flex;
+    animation: rodar 18s infinite alternate ease-in-out;
+    width: 400%;
+    margin: 1%;
+}
+
+#CarrucelMain>ul>li {
+    width: 100%;
+    height: 730px;
+    list-style: none;
+}
+
+#CarrucelMain>ul>li:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 730px;
+    background-color: rgba(0, 0, 0, 0.055);
+    z-index: 2;
+}
+
+@media (max-width: 1115px) {
+    #CarrucelMain>ul>li:before {
+        height: 710px;
+    }
+}
+
+@media (max-width: 800px) {
+    #CarrucelMain>ul>li:before {
+        height: 680px;
+    }
+}
+
+@media (max-width: 500px) {
+    #CarrucelMain>ul>li:before {
+        height: 660px;
+    }
+}
+
+@media (max-width: 300px) {
+    #CarrucelMain>ul>li:before {
+        height: 640px;
+    }
+
+    #TextMain {
+        flex: auto;
+        position: relative;
+        bottom: 690px;
+        text-align: justify;
+        text-align: center;
+    }
+}
+
+
+
+
+#CarrucelMain>ul>li>img {
+    display: flex;
+    width: 100%;
+    height: 607px;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+@keyframes rodar {
+    0% {
+        margin-left: 0%;
+    }
+
+    20% {
+        margin-left: 0%;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+/* separador */
+.separador {
+    width: 100%;
+    height: 100px;
+    background-color: #e0b30e;
+    margin-bottom: 2%;
+}
+
+.separador1 {
+    width: 100%;
+    height: 5px;
+    margin-top: 2%;
+    background-color: #ffffff;
+}
+
+/* zona restaurente */
+#ZoneRestaurante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ZonaImgLow {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#ZonaImgLow>.ZonaResImg>img {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+.ZonaResImg {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* TITULO DECRICION */
+
+#TituloDes2>div>img {
+    display: flex;
+    width: 100%;
+}
+
+#TituloDes {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+    color: #e0b30e;
+}
+
+#TituloDes2>div>h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+/* logo */
+#MenuMain>div>a> {
+    display: flex;
+}
+
+#MenuMain>div>a>img {
+    width: 8vw;
+
+}
+/* mapa */
+#MapStyle {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+
+#MapGoogle {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -15%;
+    border: none;
+    width: 18,75rem;
+    height: 25rem;
+}
+
+#SemiFinal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+    width: 97%;
+    margin-top: 3%;
+    margin-left: 1.6%;
+}
+
+/* separador2 */
+.separador2 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.separador2>img {
+    display: flex;
+    opacity: 0.5;
+    z-index: 1;
+    width: 100%;
+    height: 400px;
+}
+
+.separador2>img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 720px;
+    background-color: rgba(0, 0, 0, 0.055);
+    z-index: 2;
+}
+
+/* texto navegador */
+#MenuMain>.MenuLink>a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 2vw;
+}
+
+/* boton */
+button {
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 11px 11px 11px 11px;
+    border: 1px solid #000;
+    background: #E1B30F;
+    ;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button a {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    color: #000;
+}
+
+button:hover {
+    background-color: rgba(225, 179, 15, 90%);
+    color: #000;
+}
+
+.somos  {
+    text-decoration: none;
+    color: #ffffff;
+}

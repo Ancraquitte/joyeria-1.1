@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.row .col {
+    flex: 1;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: justify;
+}
+
+.row .col img {
+    flex: auto;
+    max-width: 100%;
+    width: 20rem;
+    height: 18rem;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.img1   {
+    position: relative;
+    left: 10rem;
+    border-radius: 15px;
+}
+
+.img2   {
+    position: relative;
+    top: 4rem;
+    left: 5rem;
+    border-radius: 15px;
+}

@@ -1,0 +1,92 @@
+/* texto bannner */
+
+#TextMain {
+    flex: auto;
+    position: relative;
+    bottom: 660px;
+    text-align: justify;
+}
+
+
+#TextMain>h1 {
+    color: #e0b30e;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#TextMain>p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#TextMain1>h1 {
+    color: #e0b30e;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#TextMain1>p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+/* Zona Gurmet */
+#TituloDes>h1  {
+    color: #e0b30e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin: 1%;
+}
+
+#DescripcionLow>p {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: 3%;
+}
+
+#SemiFinal  {
+    display: flex;
+}
+
+#SemiFinal>h1  {
+    color: #e0b30e;
+    font-size: 3.29vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#SemiFinal>div>p  {
+    color: #ffffff;
+    font-size: 2.29vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* quienes somos v m */
+
+.textQ {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* cabezeras */
+.Qtext  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: #e0b30e;
+    text-align: center;
+    margin: 2%;
+}
+
+/* p de hisotria */
+.col>p  {
+    width: 95%;
+    text-align:justify ;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
